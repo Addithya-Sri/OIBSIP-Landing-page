@@ -40,6 +40,9 @@ body {
 
 a {
     columns: #353535;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: large;
 }
 
 a:hover {
@@ -60,6 +63,7 @@ a:hover {
     flex-direction: column;
     align-items: end;
     justify-content: space-around;
+    
 }
 
 .hero {
@@ -98,6 +102,7 @@ a:hover {
 
 .two {
     text-align: center; 
+    background-color: #FCA311;
   }
   
   .two ul {
@@ -136,7 +141,7 @@ a:hover {
  .contact {
     height: 25px;
     width: 80px;
-    background-color: orange;
+    background-color: white;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -149,4 +154,54 @@ a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #FCA311;
  }
+
+
+ .one {
+    text-align: center; 
+    background-color: #FCA311;
+  }
+  
+  .one ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-top: 10px;
+  }
+  
+  .one h4 {
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .one li {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 20%; 
+    margin-bottom: 20px; 
+    
+  }
+  
+  .one i {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+  }
+  
+  .one p {
+    margin: 0; 
+    text-align: center; 
+ }
+
+.one p:hover {
+    color: white;
+}
+  
+.two p:hover {
+    color: white;
+}
