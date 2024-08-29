@@ -205,3 +205,38 @@ a:hover {
 .two p:hover {
     color: white;
 }
+
+/* Footer */
+
+.last {
+    height: 150px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+footer {
+  text-align: center; 
+  padding: 20px; 
+  background-color: #f1f1f1; 
+}
+
+footer .last {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; 
+}
+
+footer .over h1 {
+  margin-bottom: 20px; 
+}
+
+footer .over i {
+  font-size: 40px;
+  margin: 0 15px; 
+  transition: transform 0.3s ease; 
+}
+
+footer .over i:hover {
+  transform: scale(1.2); 
+}
